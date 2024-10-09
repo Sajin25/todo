@@ -1,3 +1,4 @@
+/* Global styles */
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f0f4f8;
@@ -30,6 +31,7 @@ ul {
 li {
   display: flex;
   justify-content: space-between;
+  align-items: center; /* Align items vertically */
   background: #e2eafc;
   padding: 10px;
   margin-bottom: 10px;
@@ -74,4 +76,10 @@ input[type="text"] {
 
 .add-button:hover {
   background-color: #10ac84;
+}
+
+/* Strikethrough style for completed tasks */
+.completed {
+  text-decoration: line-through; /* Apply strikethrough */
+  color: #aaa; /* Change text color for completed tasks */
 }
